@@ -7,21 +7,29 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('../views/HomeView.vue'),
-      meta: {title: '首頁'}
     },
     {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),
-      meta: {title: '關於我'}
+      meta: { title: '關於我' }
     },
     {
       path: '/projects',
       name: 'projects',
       component: () => import('../views/ProjectVite.vue'),
-      meta: {title: '專案作品'},
+      meta: { title: '專案作品' },
     },
-  ]
+  ],
+  scrollBehavior() {
+    return {
+      top: 0,
+    };
+  },
+})
+
+router.beforeEach((to) => {
+  document.title = to.meta.title !== undefined ? `Tami | ${to.meta.title}` : `Tami`;
 })
 
 export default router
