@@ -44,7 +44,7 @@ const closeModal = () => {
   </section>
 
   <div v-if="isTempOpen" @click.stop="closeModal()" class="fixed top-0 left-0 w-full h-full bg-black/40 backdrop-blur-[1px] z-20 overflow-auto flex justify-center items-center">
-    <div data-aos="fade-up" class="bg-white w-full h-full md:max-w-[70vw] xl:max-w-[60vw] md:h-[80vh] md:rounded-[20px] duration-300 overflow-auto">
+    <div data-aos="fade-up" class="bg-white w-full h-full md:max-w-[70vw] xl:max-w-[60vw] md:h-[80vh] md:rounded-[20px] duration-300 overflow-auto modal">
       <div class="sticky top-0 bg-white flex justify-between items-center px-4 py-3 border-b">
         <h3 class="ellipsis font-bold lg:text-4h">{{ tempProject.title }}</h3>
         <button @cllick="closeModal()"><font-awesome-icon icon="fa-solid fa-circle-xmark" class="text-gray-700 hover:text-primary" /></button>
