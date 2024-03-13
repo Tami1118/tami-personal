@@ -1,13 +1,15 @@
 <script setup>
-import SkillView from '../components/about/AboutSkill.vue';
+import AboutMe from '@/components/about/AboutMe.vue';
+import AboutSkill from '@/components/about/AboutSkill.vue';
+import AboutJob from '@/components/about/AboutJob.vue';
+import AboutEdu from '@/components/about/AboutEdu.vue';
 </script>
 
 <template>
-  <div class="w-[90vw] md:w-[70vw] xl:w-[60vw] mx-auto duration-300 py-10 lg:py-20">
-    <!-- 關於我 -->
-    <!-- 專長技能 -->
-    <SkillView />
-    <!-- 工作經驗 -->
-    <!-- 學歷經驗 -->
+  <div class="w-[90vw] md:w-[70vw] xl:w-[60vw] mx-auto duration-300">
+    <AboutMe />
+    <AboutSkill />
+    <AboutJob />
+    <AboutEdu />
   </div>
 </template>

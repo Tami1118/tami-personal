@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="flex flex-col justify-center">
-        <h1 data-aos="zoom-in-right" data-aos-delay="300" class="font-bold text-[32px]">Hello, I'm <span class="text-primary">Tami</span></h1>
+        <h1 data-aos="zoom-in-right" data-aos-delay="300" class="font-bold text-[32px] mb-2">Hello, I'm <span class="text-primary">Tami</span></h1>
         <h2 data-aos="zoom-in-right" data-aos-delay="600">喜歡打打扣 0 到 1 從做中學，不斷拓展新技術。<br class="hidden lg:block">希望開發具人性及溫暖的產品，持續精進邁向前端工程師。</h2>
       </div>
     </div>

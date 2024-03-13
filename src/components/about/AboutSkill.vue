@@ -3,12 +3,10 @@ import skills from '@/data/skills'
 </script>
 
 <template>
-  <ul class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-    <li v-for="skill in skills" :key="skill.is">
-      <h3 class="text-primary font-bold mb-3">{{ skill.title }}</h3>
-      <ul>
-        <li v-for="item in skill.item" :key="`${item} 123`" class="list-disc ms-5">{{ item }}</li>
-      </ul>
-    </li>
-  </ul>
+  <section class="py-10 lg:py-20">
+    <h2 data-aos="fade-up" data-aos-delay="300" class="bg-primary w-fit px-4 py-2 text-white section-rounded text-5 font-500 mb-10 lg:mb-20">專長技能 Skills</h2>
+    <div class="flex flex-col lg:flex-row">
+      {{ skills }}
+    </div>
+  </section>
 </template>

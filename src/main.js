@@ -2,7 +2,6 @@ import './assets/scss/all.scss'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
 import App from './App.vue'
 import router from './router'
 
@@ -21,10 +20,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
-const app = createApp(App)
 
+const app = createApp(App)
 app.use(createPinia())
    .use(router)
    .component("font-awesome-icon", FontAwesomeIcon)
-
-app.mount('#app')
+   .mount('#app')

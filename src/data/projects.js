@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'Bootstrap + SCSS 活動購票服務 - 7TAO',
     date: '2023 SEP',
-    functions: [
+    features: [
       "首頁 Banner, 房型介紹輪播",
       "註冊申請及會員登入",
       "瀏覽藝文資訊",
@@ -27,7 +27,7 @@ const projects = [
     id: 2,
     title: 'TypeScript + Vue 旅宿預約服務 - 享樂酒店',
     date: '2024 JAN',
-    functions: [
+    features: [
       "首頁 Banner, 房型介紹輪播",
       "瀏覽房型詳細介紹",
       "註冊申請及會員登入",
@@ -54,7 +54,7 @@ const projects = [
     id: 3,
     title: 'Bootstrap 共享音樂服務平台',
     date: '2023 SEP',
-    functions: [
+    features: [
       "首頁 Banner, 房型介紹輪播",
       "瀏覽房型詳細介紹",
       "註冊申請及會員登入",

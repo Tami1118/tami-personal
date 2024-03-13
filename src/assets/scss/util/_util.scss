@@ -1,0 +1,10 @@
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-line-clamp: 1;
+}
+
+.section-rounded {
+  border-radius: 20px 20px 20px 0;
+}
