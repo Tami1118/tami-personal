@@ -9,8 +9,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'montserrat': ["Montserrat", "Noto Sans TC", "sans-serif"],
+      },
+      fontWeight: {
+        '500': '500',
+        '600': '600',
+      },
       colors: {
         'primary': '#13ab67',
+        'primary-80': '#04503A',
+        'secondary': '#064B62',
       },
       fontSize: {
         '3':  '12px',
