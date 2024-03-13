@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: '/projects',
       name: 'projects',
-      component: () => import('../views/ProjectVite.vue'),
+      component: () => import('../views/ProjectView.vue'),
       meta: { title: '專案作品' },
     },
   ],
