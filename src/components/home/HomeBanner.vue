@@ -1,6 +1,6 @@
 <template>
   <section class="w-[90vw] md:w-[70vw] xl:w-[60vw] mx-auto duration-300">
-    <div class="grid md:grid-cols-2 duration-300 h-[80vh] lg:h-[60vh]">
+    <div class="grid md:grid-cols-2 duration-300 h-[70vh] lg:h-[60vh]">
       <div class="flex justify-center items-center md:order-1">
         <div data-aos="fade-left" data-aos-delay="300" class="flex group relative">
           <img class="w-[132px] md:w-[10vw]" src="../../assets/image/person-img.png" alt="Banner people">

@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue';
 import projects from '@/data/projects';
 const projectList = computed(() => {
-  return projects.reverse()
+  return projects
 })
 const tempProject = ref({})
 const isTempOpen = ref(false)
@@ -20,7 +20,10 @@ const closeModal = () => {
 
 <template>
   <section id="projects" class="w-[90vw] md:w-[70vw] xl:w-[60vw] mx-auto duration-300 py-12 lg:py-20">
-    <h2 data-aos="fade-up" data-aos-delay="300" class="bg-primary w-fit mx-auto px-4 py-2 text-white section-rounded text-5 font-500 mb-10 lg:mb-20">專案作品 Projects</h2>
+    <h2 data-aos="fade-up" class="flex flex-col items-center mb-10 lg:mb-20">
+      <span class="block order-1 text-5 lg:text-6 font-600">專案作品</span> 
+      <span class="block bg-primary w-fit px-2 text-white section-rounded text-3 font-600 mb-1">Projects</span>
+    </h2>
     <ul v-if="projectList.length > 0" class="flex flex-col gap-12">
       <li v-for="project in projectList" :key="project.id" class="rounded-[20px] overflow-hidden group border lg:border-0 lg:hover:border lg:hover:border-gray-100 hover:shadow-[8px_6px_0px_1px_rgba(0,0,0,0.1)] hover:-translate-x-2 hover:-translate-y-2 duration-300">
         <div data-aos="fade-up" class="grid lg:grid-cols-2 lg:gap-3 cursor-pointer" @click="tempProject = project, openModal()">
@@ -51,7 +54,7 @@ const closeModal = () => {
       </div>
       <div>
         <img :src="tempProject.imageUrl" class="w-full h-[320px] object-cover" :alt="tempProject.title">
-        <div class="p-4">
+        <div class="px-6 py-4">
           <div class="flex flex-col lg:flex-row gap-10">
             <div class="lg:basis-7/12">
               <h4 class="text-gray-500 font-500 mb-1 text-3h">專案介紹</h4>

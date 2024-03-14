@@ -58,51 +58,102 @@
 
 const skills = [
   {
-    category: 'webLayout',
+    category: 'Web Layout',
     children: [
       {
         id: 1,
         title: 'HTML5',
-        imageUrl: '',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_html.png?raw=true',
       },
       {
         id: 2,
         title: 'CSS3',
-        imageUrl: '',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_css.png?raw=true',
       },
       {
         id: 3,
         title: 'Bootstrap',
-        imageUrl: '',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_bootstrap.png?raw=true',
       },
       {
         id: 4,
         title: 'Tailwind',
-        imageUrl: '',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_tailwind.png?raw=true',
+      },
+      {
+        id: 5,
+        title: 'SASS/Scss',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_sass.png?raw=true',
       },
     ]
   },
   {
-    category: 'webLayout',
+    category: 'JavaScript',
     children: [
       {
-        id: 1,
-        title: 'HTML5',
-        imageUrl: '',
+        id: 6,
+        title: 'JavaScript ES6',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_javascript.png?raw=true',
       },
       {
-        id: 1,
-        title: 'CSS3',
-        imageUrl: '',
+        id: 7,
+        title: 'jQuery',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_jquery.png?raw=true',
       },
       {
-        id: 1,
-        title: 'Bootstrap',
-        imageUrl: '',
+        id: 8,
+        title: 'TypeScript',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_typescript.png?raw=true',
+      },
+    ]
+  },
+  {
+    category: 'Framework',
+    children: [
+      {
+        id: 9,
+        title: 'Vue 3',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_vue.png?raw=true',
       },
       {
-        id: 1,
-        title: '',
+        id: 10,
+        title: 'Pinia',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_pinia.png?raw=true',
+      },
+      {
+        id: 11,
+        title: 'Vue Router',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_router.png?raw=true',
+      },
+    ]
+  },
+  {
+    category: 'Tools',
+    children: [
+      {
+        id: 12,
+        title: 'Vite',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_vite.png?raw=true',
+      },
+      {
+        id: 13,
+        title: 'Git/GitHub',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_github.png?raw=true',
+      },
+      {
+        id: 14,
+        title: 'Google Sheets',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_sheets.png?raw=true',
+      },
+      {
+        id: 15,
+        title: 'Notion',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_notion.png?raw=true',
+      },
+      {
+        id: 16,
+        title: 'Hack MD',
+        imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_hackMD.png?raw=true',
       },
     ]
   },
