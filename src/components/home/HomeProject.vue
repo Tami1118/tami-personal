@@ -1,17 +1,22 @@
 <script setup>
 import { computed, ref } from 'vue';
+import SectionTitle from '../SectionTitle.vue'
+
+// 取得專案資料
 import projects from '@/data/projects';
 const projectList = computed(() => {
   return projects
 })
-const tempProject = ref({})
-const isTempOpen = ref(false)
 
+// 資料傳到 modal
+const tempProject = ref({})
+
+// modal 模板開啟關閉，背景利用 hidden 固定
+const isTempOpen = ref(false)
 const openModal = () => {
   isTempOpen.value = true
   document.body.style.overflow = 'hidden';
 }
-
 const closeModal = () => {
   isTempOpen.value = false
   document.body.style.overflow = 'scroll';
@@ -19,11 +24,8 @@ const closeModal = () => {
 </script>
 
 <template>
-  <section id="projects" class="w-[90vw] md:w-[70vw] xl:w-[60vw] mx-auto duration-300 py-12 lg:py-20">
-    <h2 data-aos="fade-up" class="flex flex-col items-center mb-10 lg:mb-20">
-      <span class="block order-1 text-5 lg:text-6 font-600">專案作品</span> 
-      <span class="block bg-primary w-fit px-2 text-white section-rounded text-3 font-600 mb-1">Projects</span>
-    </h2>
+  <section class="w-[90vw] md:w-[70vw] xl:w-[60vw] mx-auto duration-300 py-12 lg:py-20">
+    <SectionTitle titleZh="專案作品" titleEn="Projects" />
     <ul v-if="projectList.length > 0" class="flex flex-col gap-12">
       <li v-for="project in projectList" :key="project.id" class="rounded-[20px] overflow-hidden group border lg:border-0 lg:hover:border lg:hover:border-gray-100 hover:shadow-[8px_6px_0px_1px_rgba(0,0,0,0.1)] hover:-translate-x-2 hover:-translate-y-2 duration-300">
         <div data-aos="fade-up" class="grid lg:grid-cols-2 lg:gap-3 cursor-pointer" @click="tempProject = project, openModal()">
@@ -57,36 +59,37 @@ const closeModal = () => {
         <div class="px-6 py-4">
           <div class="flex flex-col lg:flex-row gap-10">
             <div class="lg:basis-7/12">
-              <h4 class="text-gray-500 font-500 mb-1 text-3h">專案介紹</h4>
-              <p class="text-3h text-justify">{{ tempProject.content }}</p>
+              <ul class="flex flex-wrap gap-3 mb-3">
+                <li v-for="tag in tempProject.tags" :key="`${tag} 123`" class="text-3 border rounded-[4px] px-2 text-gray-400">{{ tag }}</li>
+              </ul>
+              <h4 class="text-gray-500 font-500 mb-1 text-3">專案介紹</h4>
+              <p class="text-justify">{{ tempProject.content }}</p>
             </div>
             <div class="lg:basis-5/12 flex flex-col gap-3 text-3h">
               <div>
-                <h4 class="text-gray-500 font-500 mb-1">專案日期</h4>
+                <h4 class="text-gray-500 font-500 mb-1 text-3">專案日期</h4>
                 <p class="text-gray-600">{{ tempProject.date }}</p>
               </div>
               <div>
-                <h4 class="text-gray-500 font-500 mb-1">專案連結</h4>
-                <a class="hover:text-primary" :href="tempProject.demoUrl">網站 Demo</a> /
-                <a class="hover:text-primary" :href="tempProject.githubUrl">專案原始碼</a>
+                <h4 class="text-gray-500 font-500 mb-1 text-3">專案連結</h4>
+                <a class="hover:text-primary" :href="tempProject.demoUrl" target="_blank">網站 Demo</a> /
+                <a class="hover:text-primary" :href="tempProject.githubUrl" target="_blank">專案原始碼</a>
               </div>
               <div>
-                <h4 class="text-gray-500 font-500 mb-1">標籤</h4>
-                <ul class="flex flex-wrap gap-3">
-                  <li v-for="tag in tempProject.tags" :key="`${tag} 123`" class="text-3 border rounded-[4px] px-2 text-gray-400">{{ tag }}</li>
-                </ul>
+                <h4 class="text-gray-500 font-500 mb-1 text-3">專案模式</h4>
+                <p class="text-gray-600">{{ tempProject.type }}</p>
               </div>
             </div>
           </div>
           <div class="grid lg:grid-cols-2 gap-5 mt-8 text-3h">
             <div>
-              <h4 class="text-gray-500 font-500 mb-2">功能介紹</h4>
+              <h4 class="text-gray-500 font-500 mb-2 text-3">功能介紹</h4>
               <ul class="list-disc ms-4 flex flex-col gap-1">
                 <li v-for="feature in tempProject.features" :key="`${feature} 123`">{{ feature }}</li>
               </ul>
             </div>
             <div>
-              <h4 class="text-gray-500 font-500 mb-2">專案技術</h4>
+              <h4 class="text-gray-500 font-500 mb-2 text-3">專案技術</h4>
               <ul class="list-disc ms-4 flex flex-col gap-1">
                 <li v-for="skill in tempProject.skills" :key="`${skill} 123`">{{ skill }}</li>
               </ul>

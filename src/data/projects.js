@@ -74,9 +74,6 @@ const projects = [
     githubUrl: 'https://github.com/townyuan/coMusic',
     imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects-music.png?raw=true',
   },
-
-
-
 ]
 
 export default projects

@@ -152,7 +152,7 @@ const skills = [
       },
       {
         id: 16,
-        title: 'Hack MD',
+        title: 'HackMD',
         imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/skill_hackMD.png?raw=true',
       },
     ]
