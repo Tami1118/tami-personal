@@ -15,5 +15,20 @@
         <h2 data-aos="zoom-in-right" data-aos-delay="600">喜歡打打扣 0 到 1 從做中學，不斷拓展新技術。<br class="hidden lg:block">希望開發具人性及溫暖的產品，持續精進邁向前端工程師。</h2>
       </div>
     </div>
+    <div data-aos="fade-down" class="text-center h-[20vh] lg:h-auto">
+      <font-awesome-icon icon="fa-solid fa-arrow-down-long" class="text-primary arrow_baloon text-6" />
+    </div>
   </section>
 </template>
+
+<style lang="scss">
+.arrow_baloon {
+  animation: baloon 2s infinite;
+}
+
+@keyframes baloon {
+  0% {transform: translateY(20px);}
+  50% {transform: translateY(50px);}
+  100% {transform: translateY(20px);}
+}
+</style>
