@@ -72,7 +72,7 @@ const closeModal = () => {
               </div>
               <div>
                 <h4 class="text-gray-500 font-500 mb-1 text-3">專案連結</h4>
-                <a class="hover:text-primary" :href="tempProject.demoUrl" target="_blank">網站 Demo</a> <span v-if="during_end !== undefined">/</span>
+                <a class="hover:text-primary" :href="tempProject.demoUrl" target="_blank">網站 Demo</a> / 
                 <a class="hover:text-primary" :href="tempProject.githubUrl" target="_blank">專案原始碼</a>
               </div>
               <div>
