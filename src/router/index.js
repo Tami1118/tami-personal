@@ -12,13 +12,13 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),
-      meta: { title: '關於我' }
+      meta: { title: 'About' }
     },
     {
       path: '/projects',
       name: 'projects',
       component: () => import('../views/ProjectView.vue'),
-      meta: { title: '專案作品' },
+      meta: { title: 'Project' },
     },
   ],
   scrollBehavior() {
@@ -29,7 +29,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to) => {
-  document.title = to.meta.title !== undefined ? `Tami | ${to.meta.title}` : `Tami`;
+  document.title = to.meta.title !== undefined ? `Tami | ${to.meta.title}` : `Tami | Frontend Developer`;
 })
 
 export default router
