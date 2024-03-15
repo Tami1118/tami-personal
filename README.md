@@ -1,7 +1,7 @@
 # Hello, I'm Tami !
 
 喜歡打打扣 0 到 1 從做中學，不斷拓展新技術。希望開發具人性及溫暖的產品，持續精進邁向前端工程師。
-###### Tami Personal [Url](tami1118.github.io/tami-personal/)
+###### Tami Personal Website [URL](tami1118.github.io/tami-personal/)
 
 ## Project Setup
 
