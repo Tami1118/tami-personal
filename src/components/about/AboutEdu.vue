@@ -1,8 +1,8 @@
 <template>
   <section class="py-10 lg:py-20">
     <SectionTitle titleZh="學歷" titleEn="Education" />
-    <ul data-aos="fade-up" class="flex flex-col gap-8">
-      <li v-for="edu in edus" :key="edu.id" class="grid lg:grid-cols-4 gap-3">
+    <ul class="flex flex-col gap-8">
+      <li data-aos="fade-up" v-for="edu in edus" :key="edu.id" class="grid lg:grid-cols-4 gap-3">
         <div class="flex justify-center items-start">
           <img :src="edu.unitImage" class="w-[60px]" :alt="edu.unit">
         </div>
