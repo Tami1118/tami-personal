@@ -68,11 +68,11 @@ const closeModal = () => {
             <div class="lg:basis-5/12 flex flex-col gap-3 text-3h">
               <div>
                 <h4 class="text-gray-500 font-500 mb-1 text-3">專案日期</h4>
-                <p class="text-gray-600">{{ tempProject.date }}</p>
+                <p class="text-gray-600">{{ tempProject.during_start }} - {{ tempProject.states ? "進行中": tempProject.during_end }}</p>
               </div>
               <div>
                 <h4 class="text-gray-500 font-500 mb-1 text-3">專案連結</h4>
-                <a class="hover:text-primary" :href="tempProject.demoUrl" target="_blank">網站 Demo</a> /
+                <a class="hover:text-primary" :href="tempProject.demoUrl" target="_blank">網站 Demo</a> <span v-if="during_end !== undefined">/</span>
                 <a class="hover:text-primary" :href="tempProject.githubUrl" target="_blank">專案原始碼</a>
               </div>
               <div>

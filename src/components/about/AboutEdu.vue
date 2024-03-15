@@ -8,8 +8,8 @@
         </div>
         <div>
           <p class="text-primary font-bold lg:text-4h text-center lg:text-start">{{ edu.department }}</p>
-          <p class="text-3h text-center lg:text-start">{{ edu.unit }}</p>
-          <p class="text-gray-400 text-3 text-center lg:text-start">{{ edu.during_start }} ~ {{ edu.during_end }}</p>
+          <p class="text-3h text-center lg:text-start mb-1">{{ edu.unit }}</p>
+          <p class="text-gray-400 text-3 text-center lg:text-start">{{ edu.during_start }} - {{ edu.during_end }}</p>
         </div>
         <div class="lg:col-span-2">
           <p class="text-3h text-gray-600 text-justify">{{ edu.content }}</p>

@@ -4,8 +4,8 @@ const jobs = [
     unit: '國立臺灣藝術大學',
     unitImage: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/work_ntua.png?raw=true',
     position: '專案管理師',
-    during_start: '2020 JUL',
-    during_end: '2023 JAN',
+    during_start: '2020 Jul.',
+    during_end: '2023 Jan.',
     skills: [
       "控管專案執行進度，確保成果符合預期成效",
       "專案目標確定及評估時程KPI規劃",
@@ -18,8 +18,8 @@ const jobs = [
     unit: '禾樂顧問有限公司',
     unitImage: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/work_holo.png?raw=true',
     position: '專案助理',
-    during_start: '2018 JUL',
-    during_end: '2020 JAN',
+    during_start: '2018 Jul.',
+    during_end: '2020 Jan.',
     skills: [
       "專案進度控管及管考文件撰寫",
       "需求訪談及系統功能 Wireframe 規劃",

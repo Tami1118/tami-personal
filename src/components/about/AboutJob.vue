@@ -8,8 +8,8 @@
         </div>
         <div>
           <p class="text-primary font-bold lg:text-4h text-center lg:text-start">{{ job.position }}</p>
-          <p class="text-3h text-center lg:text-start">{{ job.unit }}</p>
-          <p class="text-gray-400 text-3 text-center lg:text-start">{{ job.during_start }} ~ {{ job.during_end }}</p>
+          <p class="text-3h text-center lg:text-start mb-1">{{ job.unit }}</p>
+          <p class="text-gray-400 text-3 text-center lg:text-start">{{ job.during_start }} - {{ job.during_end }}</p>
         </div>
         <div class="lg:col-span-2">
           <ul class="list-disc ms-5">
