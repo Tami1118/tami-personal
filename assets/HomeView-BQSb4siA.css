@@ -1,0 +1,1 @@
+.arrow_baloon{animation:baloon 2s infinite}@keyframes baloon{0%{transform:translateY(20px)}50%{transform:translateY(50px)}to{transform:translateY(20px)}}.modal::-webkit-scrollbar{display:none}
