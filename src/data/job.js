@@ -19,7 +19,7 @@ const jobs = [
     unitImage: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/work_holo.png?raw=true',
     position: '專案助理',
     during_start: '2018 Jul.',
-    during_end: '2020 Jan.',
+    during_end: '2020 Jun.',
     skills: [
       "專案進度控管及管考文件撰寫",
       "需求訪談及系統功能 Wireframe 規劃",
