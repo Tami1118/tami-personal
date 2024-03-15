@@ -25,7 +25,7 @@ const projects = [
     tags: ["Vue.js", "TypeScript", "Tailwind", "RWD"],
     demoUrl: 'https://tami1118.github.io/side-project-booking/#/',
     githubUrl: 'https://github.com/Tami1118/side-project-booking',
-    imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects-booking.png?raw=true',
+    imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects_booking.png?raw=true',
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ const projects = [
     tags: ["Bootstrap", "RWD", "SASS"],
     demoUrl: 'https://tami1118.github.io/hex-2023web-week6/',
     githubUrl: 'https://github.com/Tami1118/hex-2023web-week6',
-    imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects-ticket.png?raw=true',
+    imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects_ticket.png?raw=true',
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const projects = [
     tags: ["Bootstrap", "Scss", "Git/GitHub"],
     demoUrl: 'https://townyuan.github.io/coMusic/',
     githubUrl: 'https://github.com/townyuan/coMusic',
-    imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects-music.png?raw=true',
+    imageUrl: 'https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/projects_music.png?raw=true',
   },
 ]
 

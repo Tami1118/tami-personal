@@ -2,7 +2,7 @@
   <section class="py-10 lg:py-20">
     <div class="flex flex-col lg:flex-row gap-10">
       <div class="basis-5/12 flex justify-center">
-        <img data-aos="fade-right" class="h-[350px] lg:h-[300px] w-full lg:w-[200px] rounded-[20px] object-cover object-center-top" src="https://github.com/Tami1118/tami-personal/blob/main/src/assets/image/about_me.png?raw=true" alt="Tami">
+        <img data-aos="fade-right" class="h-[350px] lg:h-[300px] w-full lg:w-[200px] rounded-[20px] object-cover object-center-top" src="https://github.com/Tami1118/tami_personal/blob/main/src/assets/image/about_me.png?raw=true" alt="Tami">
       </div>
       <div data-aos="fade-left" class="basis-7/12 flex flex-col gap-2 justify-center">
         <h1 class="font-bold mb-1 text-5h">Hello ~ 我是 <span class="text-primary">Tami</span></h1>
