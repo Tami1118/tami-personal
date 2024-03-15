@@ -1,14 +1,7 @@
-# tami-personal
+# Hello, I'm Tami !
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+喜歡打打扣 0 到 1 從做中學，不斷拓展新技術。希望開發具人性及溫暖的產品，持續精進邁向前端工程師。
+###### Tami Personal [Url](tami1118.github.io/tami-personal/)
 
 ## Project Setup
 
