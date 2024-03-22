@@ -76,8 +76,8 @@ const closeModal = () => {
                 <a class="hover:text-primary" :href="tempProject.githubUrl" target="_blank">專案原始碼</a>
               </div>
               <div>
-                <h4 class="text-gray-500 font-500 mb-1 text-3">專案模式</h4>
-                <p class="text-gray-600">{{ tempProject.type }}</p>
+                <h4 class="text-gray-500 font-500 mb-1 text-3">專案規模</h4>
+                <p class="text-gray-600">{{ tempProject.scale }}</p>
               </div>
             </div>
           </div>

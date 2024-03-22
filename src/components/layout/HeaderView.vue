@@ -37,7 +37,7 @@ onMounted(() => {
             </RouterLink>
           </li>
           <li>
-            <a @click="isMenu = false" class="text-3h hover:border-primary hover:bg-primary hover:text-white rounded-[20px] px-3 py-1" href="https://drive.google.com/file/d/1cyhlmLzS7rJwGmud8bwOWPbcQ1KRsAm5/view?usp=sharing" target="_blank">下載履歷</a>
+            <a @click="isMenu = false" class="text-3h hover:border-primary hover:bg-primary hover:text-white rounded-[20px] px-3 py-1" href="https://drive.google.com/file/d/1bOdrcNjcQF7fZkTcAChUQz9tSLihslUA/view?usp=sharing" target="_blank">下載履歷</a>
           </li>
           <!-- <li class="h-[20px] overflow-hidden">
             <RouterLink to="/projects" class="block group" :class="{ 'text-primary font-bold': pathName === '/projects' }">
@@ -54,7 +54,7 @@ onMounted(() => {
         <ul class="flex flex-col h-full justify-center px-4">
           <li><RouterLink to="/" @click="isMenu = false" class="w-full text-6 py-3 flex items-end font-bold ps-2" :class="{ 'text-primary bg-gray-100': pathName === '/' }">首頁<span class="block text-4 ms-2">Home</span></RouterLink></li>
           <li><RouterLink to="/about" @click="isMenu = false" class="w-full text-6 py-3 flex items-end font-bold ps-2" :class="{ 'text-primary bg-gray-100': pathName === '/about' }">關於我<span class="block text-4 ms-2">About</span></RouterLink></li>
-          <li><a class="w-full text-6 py-3 flex items-end font-bold ps-2" @click="isMenu = false" href="https://drive.google.com/file/d/1cyhlmLzS7rJwGmud8bwOWPbcQ1KRsAm5/view?usp=sharing" target="_blank">下載履歷<span class="block text-4 ms-2">Resume</span></a></li>
+          <li><a class="w-full text-6 py-3 flex items-end font-bold ps-2" @click="isMenu = false" href="https://drive.google.com/file/d/1bOdrcNjcQF7fZkTcAChUQz9tSLihslUA/view?usp=sharing" target="_blank">下載履歷<span class="block text-4 ms-2">Resume</span></a></li>
           <!-- <li><RouterLink to="/projects" @click="isMenu = false" class="w-full text-6 py-3 flex items-end font-bold ps-2" :class="{ 'text-primary bg-gray-100': pathName === '/projects' }">專案作品<span class="block text-4 ms-2">Projects</span></RouterLink></li> -->
         </ul>
       </div>
