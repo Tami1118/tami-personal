@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'TypeScript + Vue 旅宿預約服務 - 享樂酒店',
-    scale: '團隊協作',
+    scale: '團隊協作 (2人)',
     during_start: '2024 Jan.',
     during_end: '2024 Feb.',
     states: true,
@@ -59,7 +59,7 @@ const projects = [
   {
     id: 3,
     title: 'Bootstrap 音樂創作分享平台 - coMusic',
-    scale: '團隊協作2人',
+    scale: '團隊協作',
     during_start: '2024 Aug.',
     during_end: '2023 Sep.',
     states: false,
